@@ -1,0 +1,31 @@
+{
+    "name": "cubiclab/base-cube",
+    "version": "dev-master",
+    "description": "Base Cube - Development package",
+    "keywords": ["cubiclab"],
+    "type": "yii2-extension",
+    "license": "GNU GPL V2",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Kirill Savinov",
+            "email": "kirill@savinov.me",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\basecube\\": "/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
