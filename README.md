@@ -1,2 +1,2 @@
 # base-cube
-Base cubes (components), needed for all other cubes
+Base cube (components), needed for all other cubes
