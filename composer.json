@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yii\\basecube\\": "/"
+            "cubiclab\\base\\": "/"
         }
     },
     "extra": {
